@@ -1,17 +1,40 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&family=Heebo:wght@500&family=Poppins:wght@400;500&display=swap');
+h1 {
+    font-size: 50PX;
+}
 .main-section{
 
- background-color:wheat;
  
+ display: flex;
+ 
+}
+.caption {
+    width: 582px;
+    height: 270px;
+    padding-left: 2em;
+  
+  
 }
 .button{
     border-radius: 10px;
    background-color: palevioletred;
    color: white;
-   padding-bottom: 7px;
+ padding-top: 2px;
+ padding-bottom: 2px;
 }
-.button>img {
-    width: 15px;
-    height: 15px;
-    padding-left: 5px;
-    padding-top: 7px;
+/* common */
+body {font-family: 'Arimo', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.camera img {
+  position: absolute;
+  width: 442px;
+  height: 414px;
+  left: 833px;
+  
+   
 }
