@@ -1,21 +1,27 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&family=Heebo:wght@500&family=Poppins:wght@400;500&display=swap');
+
+
 h1 {
     font-size: 50PX;
 }
-.main-section{
 
- 
- display: flex;
- 
+.main-section{
+    display: flex;
 }
+
 .caption {
+    position: absolute;
     width: 582px;
     height: 270px;
     padding-left: 2em;
-  
-  
-}
+  }
+  .camera{
+    position: absolute;
+      width: 442px;
+      height: 414px;
+      left: 833px;
+  }
 .button{
     border-radius: 10px;
    background-color: #ff66d9;
@@ -33,15 +39,10 @@ body {font-family: 'Arimo', sans-serif;
     font-family: 'Poppins', sans-serif;
 
 }
-.camera img {
-  position: absolute;
-  width: 442px;
-  height: 414px;
-  left: 833px;  
-}
+
 .sub-container {
     text-align: center;
-    padding-top: 350px;
+   
 }
 /* course stylee */
 .fa-star.filled{
@@ -54,5 +55,17 @@ body {font-family: 'Arimo', sans-serif;
 .all-course{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 150px;
+    padding-left: 196px;
+    padding-right: 197px;
+    background-color:
 }
+.main-section{
+    width: 329px;
+    height: 476px;
+}
+  
+   
+    
+
 
