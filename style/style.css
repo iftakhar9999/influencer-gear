@@ -23,6 +23,10 @@ h1 {
    padding: 4px 6px 4px 9px;
 }
 /* common */
+.point{
+    padding-left: 1em;
+}
+
 body {font-family: 'Arimo', sans-serif;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Heebo', sans-serif;
@@ -47,7 +51,8 @@ body {font-family: 'Arimo', sans-serif;
     display: flex;
     align-items: center;      
 }
-.point{
-    padding-left: 1em;
+.all-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
