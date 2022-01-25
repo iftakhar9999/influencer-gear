@@ -40,5 +40,14 @@ body {font-family: 'Arimo', sans-serif;
     padding-top: 350px;
 }
 /* course stylee */
-    
+.fa-star.filled{
+    color: orangered;
+}
+.star-flex{
+    display: flex;
+    align-items: center;      
+}
+.point{
+    padding-left: 1em;
+}
 
