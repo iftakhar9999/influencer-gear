@@ -18,10 +18,9 @@ h1 {
 }
 .button{
     border-radius: 10px;
-   background-color: palevioletred;
+   background-color: #ff66d9;
    color: white;
- padding-top: 2px;
- padding-bottom: 2px;
+   padding: 4px 6px 4px 9px;
 }
 /* common */
 body {font-family: 'Arimo', sans-serif;
@@ -34,7 +33,12 @@ body {font-family: 'Arimo', sans-serif;
   position: absolute;
   width: 442px;
   height: 414px;
-  left: 833px;
-  
-   
+  left: 833px;  
 }
+.sub-container {
+    text-align: center;
+    padding-top: 350px;
+}
+/* course stylee */
+    
+
