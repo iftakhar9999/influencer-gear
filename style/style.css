@@ -1,0 +1,17 @@
+.main-section{
+
+ background-color:wheat;
+ 
+}
+.button{
+    border-radius: 10px;
+   background-color: palevioletred;
+   color: white;
+   padding-bottom: 7px;
+}
+.button>img {
+    width: 15px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
