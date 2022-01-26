@@ -1,50 +1,51 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&family=Heebo:wght@500&family=Poppins:wght@400;500&display=swap');
-
-
-h1 {
-    font-size: 50PX;
+main{
+    background-color: #FDFDFD;
 }
-
-.main-section{
-    display: flex;
+.caption{
+   width: 582px;
+   height: 270px;
+   padding-left: 80px;
+  
 }
-
-.caption {
-    position: absolute;
-    width: 582px;
-    height: 270px;
-    padding-left: 2em;
-  }
-  .camera{
-    position: absolute;
-      width: 442px;
-      height: 414px;
-      left: 833px;
-  }
-.button{
-    border-radius: 10px;
-   background-color: #ff66d9;
-   color: white;
-   padding: 4px 6px 4px 9px;
+.caption>h1{
+    font-size: 52px;
 }
-/* common */
-.point{
+header>h2{
+    padding-left: 80px;
+}
+.head-section{
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ 
+}
+.camera{ 
+   padding-left: 200px;
+}
+/* buttom */
+.buttom{
+    color: white;
+    text-decoration: none;
+    background: #E02C6a;
+    border: 1px solid;
+    height: 30px;
+    width: 150px;
     padding-left: 1em;
-}
+    border-radius: 40px;
+    /* buttom end  */
 
+}
 body {font-family: 'Arimo', sans-serif;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Heebo', sans-serif;
     font-family: 'Poppins', sans-serif;
-
 }
-
-.sub-container {
+/* popular collection  */
+.collection-section>h2{
     text-align: center;
-   
 }
-/* course stylee */
+
 .fa-star.filled{
     color: orangered;
 }
@@ -54,27 +55,36 @@ body {font-family: 'Arimo', sans-serif;
 }
 .all-course{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-top: 150px;
-    padding-left: 196px;
-    padding-right: 197px;
- 
-}
-.main-section{
-    margin-left: 30px;
-    margin-right: 30px;
-  
-}
-.main-section{
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap:30px ;
+   grid-row-gap: 50px;
+}  
+.course-detail{
+ line-height: 0.5;
+    height: 200px;
     
-    width: 329px;
-    height: 476px;
 }
-.container:{
-    position: absolute;
-    width: 1047px;
-    height: 1662px;
+.courses{
+   border: 1px solid white
 }
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 120px;
+}
+.items-mod{
+    background-color: white;
+   height: 476px;
+   width: 330px;
+}
+
+
+
+
+
+
+
+
 
   
    
