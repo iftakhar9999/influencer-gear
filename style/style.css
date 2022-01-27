@@ -95,6 +95,42 @@ body {font-family: 'Arimo', sans-serif;
 .footer-section>.icons{
     word-spacing: 16px;
 }
+/* media queries */
+/* mobile deviese */
+@media only screen and (max-width: 688px) {
+ .head-section{
+     grid-template-columns: repeat(1, 1fr);
+     flex-direction: column;
+ }
+ .items,h2{
+    grid-template-columns: repeat(1, 1fr);
+}
+ .footer{
+     grid-template-columns: repeat(1, 1fr);
+ }
+ }
+ /* tablet device */
+ @media only screen and (min-width:689px) and (max-width: 992px)
+ {
+    .head-section{
+      grid-template-columns: repeat(2, 1fr);
+    } 
+    .caption, .camera{
+        flex-direction: column;
+    }
+.items{
+    grid-template-columns: repeat(2, 1fr);
+}
+footer{
+    align-items: center;
+}
+ }
+  
+
+   
+
+
+    
 
 
 
